@@ -13,20 +13,32 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
-    <nav class="navbar bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
         <div class="container-fluid">
-            <div>Jhon Doe</div>
-            <div class="">
-                <ul class="nav">
-                    <li class="nav-item "><a href="#works-section" class=" text-white nav-link">portfolio</a></li>
-                    <li class="nav-item "><a href="#about-me" class="nav-link text-white">about</a></li>
-                    <li class="nav-item "><a href="#contact-me" class="nav-link text-white">contact</a></li>
-                    <li class="nav-item "><a href="#" class="nav-link text-white"><img src="#" alt="icon for email"></a>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand" href="#">Jhon Doe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsableContent" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="collapsableContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                    <a href="#works-section" class="nav-link active">portfolio</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#about-me" class="nav-link">about</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#contact-me" class="nav-link">contact</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="nav-link"><img src="#" alt="icon for email"></a>
+                </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+
     <div class="d-flex justify-content-start bg-secondary pb-5 mt-5" id="headline">
         <div class="p-2 m-1">
             <ul class="btn-group btn-group-vertical pt-5 border my-auto">
